@@ -19,7 +19,6 @@ console.log("Firebase Configuration:", firebaseConfig);
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app); // Optional, use only if you need analytics
 
 // Initialize Firestore
 const db = getFirestore(app);
